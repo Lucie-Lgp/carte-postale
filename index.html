@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+
+	<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>A Simple Mapping Example</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+  ================================================== -->
+	<link rel="stylesheet" href="stylesheets/base.css">
+	<link rel="stylesheet" href="stylesheets/skeleton.css">
+	<link rel="stylesheet" href="stylesheets/layout.css">
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+
+	<!-- Leaflet
+	================================================== -->
+  <link rel="stylesheet" href="javascripts/leaflet/leaflet.css" />
+  <!--[if lte IE 8]><link rel="stylesheet" href="stylesheets/leaflet.ie.css" /><![endif]-->
+</head>
+<body>
+
+
+
+	<!-- Primary Page Layout
+	================================================== -->
+
+	<!-- Delete everything in this .container and get started on your own site! -->
+
+	<div class="container">
+		<div class="sixteen columns">
+			<h1 class="remove-bottom" style="margin-top: 40px">simple map.</h1>
+			<h5>make a website like this simple mapping example.</h5>
+			<hr />
+		</div>
+		<div class="one-third column">
+			<h3>a map of spokane, wa.</h3>
+			<p>This page uses <a href="https://github.com/dhgamache/Skeleton">skeleton</a>, a css framework that makes it easy to create responsive designs, and <a href="https://github.com/CloudMade/Leaflet">leaflet</a>, an awesomely simple javascript mapping tool.</p>
+			<p><strong>YOUR ASSIGNMENT:</strong> Make a site just like this following instructions in <a href="https://github.com/cpj/winter-2012">the winter 2012 github repository</a>.</p>
+		</div>
+		<div class="two-thirds column">
+			<div id="map" style="height: 300px"></div>
+		</div>
+		
+		<div class="two-thirds column">
+      <p>Include down here a couple paragraphs about the project.</p>
+		</div>
+	</div><!-- container -->
+
+
+	<!-- JS
+	================================================== -->
+	<script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+	<script src="javascripts/tabs.js"></script>
+	<script src="javascripts/leaflet/leaflet.js"></script>
+	
+	<script>
+	// initialize the map
+	var map = new L.Map('map');
+
+	// configure the map settings
+	var mapUrl = 'http://{s}.tile.cloudmade.com/d58260826bff4a90853e8d27b7ec66d2/997/256/{z}/{x}/{y}.png',
+      mapAttrib = 'Map data &copy; 2011 OpenStreetMap contributors, Imagery &copy; 2011 CloudMade',
+      mapInfo = new L.TileLayer(mapUrl, {maxZoom: 18, attribution: mapAttrib});
+
+  // set a default location for the map       
+  var spokane = new L.LatLng(47.658, -117.432); // geographical point (longitude and latitude)
+  map.setView(spokane, 14).addLayer(mapInfo);
+
+  // create a marker
+  var markerLocation = new L.LatLng(47.655, -117.432);
+
+  // add the marker to the map as a new layer
+  var marker = new L.Marker(markerLocation);
+  map.addLayer(marker);
+
+  // create a circle
+  var circleLocation = new L.LatLng(47.655, -117.443),
+      circleOptions = {
+          color: 'red', 
+          fillColor: '#f03', 
+          fillOpacity: 0.5
+      };
+
+  // add the circle to the map as a new layer
+  var circle = new L.Circle(circleLocation, 600, circleOptions);
+  map.addLayer(circle);
+
+  // create a polygon
+  var p1 = new L.LatLng(47.663, -117.423),
+      p2 = new L.LatLng(47.664, -117.421),
+      p3 = new L.LatLng(47.663, -117.416),
+      p4 = new L.LatLng(47.662, -117.416),
+      p5 = new L.LatLng(47.660, -117.418),
+      p6 = new L.LatLng(47.660, -117.423),
+      p7 = new L.LatLng(47.660, -117.423),
+      p8 = new L.LatLng(47.662, -117.424),
+      polygonPoints = [p1, p2, p3, p4, p5, p6, p7, p8];
+
+  // add the polygon to the map as a new layer
+  var polygon = new L.Polygon(polygonPoints);
+  map.addLayer(polygon);
+
+  // create popup messages for the marker, circle, and polygon
+  marker.bindPopup("<strong>Oh hi!</strong><br />Welcome to Spokane, WA.").openPopup();
+  circle.bindPopup("I'm a circle that roughly encircles the Browne's Addition neighborhood.");
+  polygon.bindPopup("I'm a polygon roughly outlining Spokane's Riverfront Park.");
+
+  // trigger the onMapClick() function when a user clicks on the map
+  map.on('click', onMapClick);
+
+  function onMapClick(e) {
+
+    // create a popup
+    var popup = new L.Popup();
+
+    // create the latitude + longitude part of the message that the popup will display
+    var latlngStr = '(' + e.latlng.lat.toFixed(3) + ', ' + e.latlng.lng.toFixed(3) + ')';
+
+    // set the latitude and the longitude of the place clicked and store that in the popup variable
+    popup.setLatLng(e.latlng);
+
+    // combine some text with the variable that holds the location that was clicked
+    popup.setContent("You clicked the map at " + latlngStr);
+
+    // get the map to open the popup
+    map.openPopup(popup);
+  }
+	</script>
+
+<!-- End Document
+================================================== -->
+</body>
+</html>
