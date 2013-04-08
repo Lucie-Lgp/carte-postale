@@ -1,9 +1,12 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="fr"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="fr"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="fr"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="fr"> <!--<![endif]-->
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Carte-postale by Rose-et-Lucie</title>
+    <title>les Cartes Postales de Rose et Lucie</title>
 
     <link rel="stylesheet" href="stylesheets/styles.css">
     <link rel="stylesheet" href="stylesheets/pygment_trac.css">
@@ -11,56 +14,169 @@
     <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
+
+
+    <!-- Mobile Specific Metas
+  ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+    <!-- CSS
+  ================================================== -->
+    <link rel="stylesheet" href="stylesheets/base.css">
+    <link rel="stylesheet" href="stylesheets/skeleton.css">
+    <link rel="stylesheet" href="stylesheets/layout.css">
+
+    <!-- Favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+
+    <!-- Leaflet
+    ================================================== -->
+  <link rel="stylesheet" href="javascripts/leaflet/leaflet.css" />
+  <!--[if lte IE 8]><link rel="stylesheet" href="stylesheets/leaflet.ie.css" /><![endif]-->
+
+
+
   </head>
   <body>
-    <div class="wrapper">
-      <header>
-        <h1>Carte-postale</h1>
-        <p>example implementation of the skeleton css framework with the leaflet mapping tool</p>
-
-        <p class="view"><a href="https://github.com/Rose-et-Lucie/carte-postale">View the Project on GitHub <small>Rose-et-Lucie/carte-postale</small></a></p>
 
 
-        <ul>
-          <li><a href="https://github.com/Rose-et-Lucie/carte-postale/zipball/master">Download <strong>ZIP File</strong></a></li>
-          <li><a href="https://github.com/Rose-et-Lucie/carte-postale/tarball/master">Download <strong>TAR Ball</strong></a></li>
-          <li><a href="https://github.com/Rose-et-Lucie/carte-postale">View On <strong>GitHub</strong></a></li>
-        </ul>
-      </header>
-      <section>
-        <h3>Welcome to GitHub Pages.</h3>
 
-<p>This automatic page generator is the easiest way to create beautiful pages for all of your projects. Author your page content here using GitHub Flavored Markdown, select a template crafted by a designer, and publish. After your page is generated, you can check out the new branch:</p>
 
-<pre><code>$ cd your_repo_root/repo_name
-$ git fetch origin
-$ git checkout gh-pages
-</code></pre>
+    <!-- Primary Page Layout
+    ================================================== -->
 
-<p>If you're using the GitHub for Mac, simply sync your repository and you'll see the new branch.</p>
+    <!-- Delete everything in this .container and get started on your own site! -->
 
-<h3>Designer Templates</h3>
+    <div class="container">
+        <div class="sixteen columns">
+            <h1 class="remove-bottom" style="margin-top: 40px">Des Cartes Postales...</h1>
+            <h5>Suivez nous dans notre voyage.</h5>
+            <hr />
+        </div>
+        <div class="one-third column">
+            <p>Nous somes Rose et Lucie, deux petite filles de 6 et 7ans. Nous vivons &agrave; Budapest en Hongrie.</p>
+            <h3>Etape apr&egrave;s &eacute;tape.</h3>
+            <p>Clique sur les ic&ocirc;nes sur la carte pour consulter nos cartes visuelles et sonores.</p>
+            <p><strong>Tu peux nous &eacute;crire:</strong> ici.</p>
+        </div>
+        <div class="two-thirds column">
+            <div id="map" style="height: 300px"></div>
+        </div>
 
-<p>We've crafted some handsome templates for you to use. Go ahead and continue to layouts to browse through them. You can easily go back to edit your page before publishing. After publishing your page, you can revisit the page generator and switch to another theme. Your Page content will be preserved if it remained markdown format.</p>
+    <div class="two-thirds column">
+    <p><br /></p>
 
-<h3>Rather Drive Stick?</h3>
+      <p>Pour le troisi&egrave;me trimestre 2013, nous serons &agrave; l'&eacute;cole du voyage. </p>
+      <p>A chaque &eacute;tape, nous posterons ici une carte postale pour partager un peu de ce que nous avons vu, entendu et appris.</p>
+        </div>
+    </div><!-- container -->
 
-<p>If you prefer to not use the automatic generator, push a branch named <code>gh-pages</code> to your repository to create a page manually. In addition to supporting regular HTML content, GitHub Pages support Jekyll, a simple, blog aware static site generator written by our own Tom Preston-Werner. Jekyll makes it easy to create site-wide headers and footers without having to copy them across every page. It also offers intelligent blog support and other advanced templating features.</p>
 
-<h3>Authors and Contributors</h3>
+    <!-- JS
+    ================================================== -->
+    <script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+    <script src="javascripts/tabs.js"></script>
+    <script src="javascripts/leaflet/leaflet.js"></script>
+    <script type="text/javascript" src="http://maps.stamen.com/js/tile.stamen.js?v1.2.1"></script>
 
-<p>You can <a href="https://github.com/blog/821" class="user-mention">@mention</a> a GitHub username to generate a link to their profile. The resulting <code>&lt;a&gt;</code> element will link to the contributor's GitHub Profile. For example: In 2007, Chris Wanstrath (<a href="https://github.com/defunkt" class="user-mention">@defunkt</a>), PJ Hyett (<a href="https://github.com/pjhyett" class="user-mention">@pjhyett</a>), and Tom Preston-Werner (<a href="https://github.com/mojombo" class="user-mention">@mojombo</a>) founded GitHub.</p>
+    <script>
+    // initialize the map
+    var map = new L.Map('map');
 
-<h3>Support or Contact</h3>
+    // configure the map settings
+    // var mapUrl = 'http://{s}.tile.cloudmade.com/d58260826bff4a90853e8d27b7ec66d2/997/256/{z}/{x}/{y}.png',
 
-<p>Having trouble with Pages? Check out the documentation at <a href="http://help.github.com/pages">http://help.github.com/pages</a> or contact <a href="mailto:support@github.com">support@github.com</a> and we’ll help you sort it out.</p>
-      </section>
-      <footer>
-        <p>This project is maintained by <a href="https://github.com/Rose-et-Lucie">Rose-et-Lucie</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
-    </div>
+     // mapAttrib = 'Map data &copy; 2011 OpenStreetMap contributors, Imagery &copy; 2011 CloudMade',
+     // mapInfo = new L.TileLayer(mapUrl, {maxZoom: 18, attribution: mapAttrib});
+
+     //var layer = new L.StamenTileLayer("toner");
+    // var map = new L.Map("element_id", {
+    //  center: new L.LatLng(37.7, -122.4),
+    //  zoom: 12
+    // });
+    // map.addLayer(layer);
+
+     var mapUrl = 'http://{s}.tile.stamen.com/toner/{z}/{x}/{y}.png',
+
+      mapAttrib = 'Map tiles by <a href="http://stamen.com">Stamen</a> & data by <a href="http://openstreetmap.org">OSM</a>',
+      mapInfo = new L.TileLayer(mapUrl, {maxZoom: 18, attribution: mapAttrib});
+
+
+  // set a default location for the map
+  var spokane = new L.LatLng(47.504588, 19.050320); // geographical point (longitude and latitude)
+  map.setView(spokane, 4).addLayer(mapInfo);
+
+  // create a marker
+  var markerLocation = new L.LatLng(47.504588, 19.050320);
+
+  // add the marker to the map as a new layer
+  var marker = new L.Marker(markerLocation);
+  map.addLayer(marker);
+
+  // create a circle
+  var circleLocation = new L.LatLng(40, 5.5),
+      circleOptions = {
+          color: 'red',
+          fillColor: '#f03',
+          fillOpacity: 0.5
+      };
+
+  // add the circle to the map as a new layer
+  var circle = new L.Circle(circleLocation, 600, circleOptions);
+  map.addLayer(circle);
+
+  // create a polygon
+   // var p1 = new L.LatLng(5.663, 40.423),
+   //      p2 = new L.LatLng(5.664, 40.421),
+   //      p3 = new L.LatLng(5.663, 40.416),
+   //      p4 = new L.LatLng(5.662, 40.416),
+   //      p5 = new L.LatLng(5.660, 40.418),
+   //      p6 = new L.LatLng(5.660, 40.423),
+   //      p7 = new L.LatLng(5.660, 40.423),
+   //      p8 = new L.LatLng(5.662, 40.424),
+   //   polygonPoints = [p1, p2, p3, p4, p5, p6, p7, p8];
+
+  // add the polygon to the map as a new layer
+  //var polygon = new L.Polygon(polygonPoints);
+  //map.addLayer(polygon);
+
+  // create popup messages for the marker, circle, and polygon
+  marker.bindPopup("<strong>Bonjour!</strong><br />Ici, c'est notre point de d&eacute;part.").openPopup();
+   //  circle.bindPopup("I'm a circle that roughly encircles the Browne's Addition neighborhood.");
+   //  polygon.bindPopup("I'm a polygon roughly outlining Spokane's Riverfront Park.");
+
+  // trigger the onMapClick() function when a user clicks on the map
+  map.on('click', onMapClick);
+
+  function onMapClick(e) {
+
+    // create a popup
+    var popup = new L.Popup();
+
+    // create the latitude + longitude part of the message that the popup will display
+    var latlngStr = '(' + e.latlng.lat.toFixed(3) + ', ' + e.latlng.lng.toFixed(3) + ')';
+
+    // set the latitude and the longitude of the place clicked and store that in the popup variable
+    popup.setLatLng(e.latlng);
+
+    // combine some text with the variable that holds the location that was clicked
+    popup.setContent("Tu as cliqu&eacute; au point de coordonn&eacute;es " + latlngStr);
+
+    // get the map to open the popup
+    map.openPopup(popup);
+  }
+    </script>
+
+<!-- End Document
+================================================== -->
+
+
+
     <script src="javascripts/scale.fix.js"></script>
-    
+
   </body>
 </html>
