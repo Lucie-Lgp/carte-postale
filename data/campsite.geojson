@@ -1,0 +1,375 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "Name": "", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -8.460058, 30.084589 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Camp El Barco Sidi ifni", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -10.174778, 29.383353 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Erfoud", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -4.230840, 31.429194 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -5.092514, 35.447766 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Meknes (closed)", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -5.556090, 33.880643 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Motel Rif", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -5.545089, 34.772447 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Chefchaouen", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -5.266488, 35.175790 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -2.726795, 35.118156 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "La Source Bleu de Meski", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -4.282584, 31.856596 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Municipal", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -4.737390, 32.677627 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Diamant Vert", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -5.018465, 33.987525 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Hotel Figuig", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -1.225351, 32.105995 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Touristique", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -3.358060, 34.222676 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Camping de Zagora", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -5.833475, 30.325924 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Camping des Olivier Ounara", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -9.547591, 31.532008 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -5.170441, 33.449297 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -5.449547, 32.973271 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Bellevue", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -5.562275, 34.015175 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Parking de la gendarmerie", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -4.681470, 35.200364 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -3.912868, 35.219334 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -4.843263, 33.820431 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -6.028300, 35.472271 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -6.028712, 35.471887 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -5.305993, 35.665884 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -4.681509, 35.203444 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -6.673579, 34.259146 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Camping Miramonte", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -5.831896, 35.791532 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Camp achakkar  Tanger cap Spartel", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -5.937599, 35.759545 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Camp International El JADIDA", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -8.487711, 33.240123 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Terre de Ocean", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -9.740283, 30.563183 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "de L'Oasis", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -9.944519, 28.945680 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Atlantic", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -11.336636, 28.494738 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "La Kasbah du Jardin", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -7.135338, 31.047577 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Atlas", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -5.585014, 31.553009 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Camp les Tamaris \" chez Michelle\"", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -4.959043, 31.686534 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Aire de repos", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -2.955408, 34.409323 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Oasis Palmier", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -5.825826, 30.323635 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Ocean des Dune", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -4.026009, 31.143077 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "2 Chameaux", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -11.322570, 28.485096 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Camping Jurassique", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -4.375933, 32.154408 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Camping Restaurant Tissirt", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -4.234387, 31.786783 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Camping Tifina", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -4.271785, 31.381524 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Camping Tizmoutine", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -5.360104, 31.454924 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Afoud", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -5.486290, 32.006691 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Ibrahim", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -5.487614, 32.012320 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "La Gazelle du Dades", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -5.930115, 31.520499 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Chez Pierrette & Moha", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -5.933475, 31.515353 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Ali's camp", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -6.186887, 29.821821 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Desert Night Camp", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -4.005981, 31.176834 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -5.190816, 33.444823 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Les Roches", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -4.005804, 31.097772 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Hotels Sahara", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -4.019245, 31.136162 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -4.531407, 30.719107 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Nomadic Life", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -5.729451, 29.807025 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Kzar Timnay Camp", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -4.919307, 32.752311 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Camping International de Fes", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -4.969284, 33.999496 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -9.713379, 29.180592 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Camping", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -5.642245, 32.196197 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -5.202164, 35.188533 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Zagmouzen", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -7.897359, 30.529722 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Tasga", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -7.205287, 31.329778 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Jafar", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -4.772534, 32.644915 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Camping Auberge el Khaima", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -5.721624, 29.820896 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Ksar Sania", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -4.007883, 31.084717 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Ksar Tafnidilt", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -10.992174, 28.546379 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Lalla Fatna", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -9.262590, 32.397537 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Paradise Garden", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -5.682500, 29.827700 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -5.129561, 33.523262 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Temara (closed)", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -6.961476, 33.926322 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Camping Kasbah Palmeraie", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -6.445605, 30.712036 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Tangaro", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -9.764931, 31.467704 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Camping de la Nature", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -6.717292, 32.013905 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Camping du Lac", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -6.467190, 32.100701 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Camping le Relais de Marrakech", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -7.989528, 31.707498 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -7.038285, 30.522207 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -6.101183, 31.248032 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -6.587061, 31.271413 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Berbère de la Montagne", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -5.909476, 31.557988 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -6.089918, 31.946244 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Sidi Rahal Herbil", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -8.067918, 31.716694 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Zaouia Ahansal", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -6.115646, 31.836493 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Tamtattouchte", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -5.548447, 31.670186 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Camping Sindibad", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -5.834259, 30.326792 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Domaine Khattab", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -9.950462, 28.967000 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Les Jardins de Zagora", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -5.833016, 30.328229 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -6.870853, 30.080011 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Haven La Chance Hotel", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -4.019023, 31.133863 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Camping Said  Mohammedia", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -7.337180, 33.725498 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Camp La Vallée ABAYNOU", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -10.019575, 29.113416 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Camping International", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -10.023557, 29.015433 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Agdal", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -7.328281, 31.258483 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Bab N Ali", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -5.788768, 31.047830 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "L'eau de Vive", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -6.479158, 32.106559 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "La Palmeraia", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -6.898472, 30.903930 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Les Portes Du Desert", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -4.010240, 31.079535 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Dawtghrem", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -6.130205, 30.654329 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Camping Kasbah Palmeraie", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -6.456367, 30.694175 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -3.971503, 31.062035 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -3.970438, 31.062106 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -3.972767, 31.062311 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -3.970668, 31.064397 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -3.969901, 31.065362 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -3.968972, 31.065867 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -3.969322, 31.066412 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -3.970163, 31.069079 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -3.969642, 31.071912 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -3.968911, 31.072296 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -3.969575, 31.073713 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -3.969904, 31.076693 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -3.968478, 31.080983 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -3.968029, 31.083288 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -3.966609, 31.083419 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -3.967694, 31.084018 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -3.965264, 31.087712 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -3.965524, 31.092546 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -3.966109, 31.092635 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -3.961820, 31.093359 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -3.956906, 31.095450 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -3.960745, 31.096754 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -3.963041, 31.101213 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -3.961278, 31.103938 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -3.969625, 31.110201 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -3.958763, 31.118965 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -3.955768, 31.121975 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -3.980681, 31.142356 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -3.950290, 31.151412 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -3.995776, 31.155866 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -3.989171, 31.156009 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -4.010572, 31.168486 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -4.014339, 31.170164 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -4.006461, 31.171206 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -4.005720, 31.172777 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -4.004500, 31.173000 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -4.003706, 31.173831 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -4.006972, 31.173902 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -4.009581, 31.174075 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -4.005313, 31.174732 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -3.978768, 31.174813 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -4.004969, 31.175232 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -3.998521, 31.176500 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -4.004719, 31.177875 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -3.958989, 31.186958 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -3.995358, 31.188742 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -3.978145, 31.189193 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -3.993428, 31.189617 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -3.993668, 31.190706 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -3.980749, 31.190853 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -3.977997, 31.191288 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -3.950056, 31.191959 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -3.978204, 31.192260 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -3.976525, 31.196455 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -3.970936, 31.196598 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -3.974444, 31.198570 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -3.981378, 31.207816 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -3.988520, 31.211994 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -4.007452, 31.212508 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -4.009559, 31.213132 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -4.012533, 31.213882 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -4.013305, 31.214043 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -4.008871, 31.214114 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -4.014464, 31.214623 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Camp Municipal D'Aglou", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -9.827479, 29.803749 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Camp International D'Aourir", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -9.623352, 30.494709 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Camp Sidi Magdoul  ESSAOUIRA", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -9.763469, 31.491504 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Camp international SAFI", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -9.238179, 32.317164 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Camp  Relais 4x4 paradis nomade", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -9.466059, 30.475088 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Camp Esprit Nature chez Patrice", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -9.626188, 31.553271 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Camp Sidi Kaouki Beach", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -9.796173, 31.351271 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Camp aire Dar Ch'tis Essaouira", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -9.709265, 31.412075 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Camp international de Tiznit", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -9.726495, 29.694351 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Camp Riad Tiznit", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -9.709441, 29.696504 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Camp international Wassay Beach", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -9.688107, 30.055888 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Camp Solymar Sidi Ifni", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -10.171287, 29.384363 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Camp Le SIdi Ifni", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -10.173009, 29.385026 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Camp Relais 4x4 Fort Bou Jerrif", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -10.331206, 29.082204 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Camp la Vallée", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -8.958709, 29.756116 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Camp L'ocean Bleu Mohammedia", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -7.324177, 33.737761 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Camp Atlantis Gate ex municipal", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -6.288575, 34.876117 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Camp Flamant Loisir", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -6.280400, 34.876275 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Camp le Calme", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -9.656947, 31.432535 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Adrar", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -5.522373, 31.683097 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -8.949953, 29.801657 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Camp Bakanou", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -9.599571, 30.176929 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Camp Takat", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -9.584475, 30.254467 ] } }
+,
+{ "type": "Feature", "properties": { "Name": "Camp Tazerzite", "Description": "" }, "geometry": { "type": "Point", "coordinates": [ -9.721991, 29.642727 ] } }
+
+]
+}

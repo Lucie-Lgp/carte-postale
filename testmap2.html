@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- CSS
+  ================================================== -->
+    <link rel="stylesheet" href="stylesheets/base.css">
+    <link rel="stylesheet" href="stylesheets/skeleton.css">
+    <link rel="stylesheet" href="stylesheets/layout.css">
+
+    <!-- Favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+
+    <!-- Leaflet
+    ================================================== -->
+  <link rel="stylesheet" href="javascripts/leaflet/leaflet.css" />
+  
+	<script>
+		CM_ATTR = 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, ' +
+				'<a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, ' +
+				'Imagery © <a href="http://cloudmade.com">CloudMade</a>';
+
+		CM_URL = 'http://{s}.tile.cloudmade.com/d4fc77ea4a63471cab2423e66626cbb6/{styleId}/256/{z}/{x}/{y}.png';
+
+		OSM_URL = 'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png';
+		OSM_ATTRIB = '&copy; <a href="http://openstreetmap.org/copyright">OpenStreetMap</a> contributors';
+	</script>
+</head>
+<body>
+<div id="map2" class="map" style="height: 220px"></div>
+
+<script>
+	var map = L.map('map').setView([51.5, -0.09], 13);
+
+	L.tileLayer(CM_URL, {attribution: CM_ATTR, styleId: 22677}).addTo(map);
+
+	var LeafIcon = L.Icon.extend({
+		options: {
+			iconUrl: '../docs/images/leaf-green.png',
+			shadowUrl: '../docs/images/leaf-shadow.png',
+			iconSize: [38, 95],
+			shadowSize: [50, 64],
+			iconAnchor: [22, 94],
+			shadowAnchor: [4, 62],
+			popupAnchor: [-3, -76]
+		}
+	});
+
+	var greenIcon = new LeafIcon(),
+		redIcon = new LeafIcon({iconUrl: '../docs/images/leaf-red.png'}),
+		orangeIcon = new LeafIcon({iconUrl: '../docs/images/leaf-orange.png'});
+
+	var marker1 = new L.Marker(new L.LatLng(51.5, -0.09), {icon: greenIcon}),
+		marker2 = new L.Marker(new L.LatLng(51.495, -0.083), {icon: redIcon}),
+		marker3 = new L.Marker(new L.LatLng(51.49, -0.1), {icon: orangeIcon});
+
+	marker1.bindPopup("I am a green leaf.");
+	marker2.bindPopup("I am a red leaf.");
+	marker3.bindPopup("I am an orange leaf.");
+
+	map.addLayer(marker1).addLayer(marker2).addLayer(marker3);
+
+
+
+	var map2 = L.map('map2').setView([51.505, -0.09], 13);
+
+	L.tileLayer(CM_URL, {attribution: CM_ATTR, styleId: 22677}).addTo(map2);
+
+	var greenIcon2 = L.icon({
+		iconUrl: '../docs/images/leaf-green.png',
+		shadowUrl: '../docs/images/leaf-shadow.png',
+		iconSize: [38, 95],
+		shadowSize: [50, 64],
+		iconAnchor: [22, 94],
+		shadowAnchor: [4, 62],
+		popupAnchor: [-3, -76]
+	});
+
+	L.marker([51.5, -0.09], {icon: greenIcon2}).addTo(map2);
+
+</script>
+</body>
+</html>

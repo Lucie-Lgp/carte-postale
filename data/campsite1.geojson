@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"features": [
+{ "type": "Feature", "properties": { "title": "premiere carte", "description": "hello wolrd", "image": "http://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/NYC_Montage_2011.jpg/275px-NYC_Montage_2011.jpg", "url": "http://en.wikipedia.org/wiki/New_York_City, "marker-size": "medium", "marker-symbol": "bus", "marker-color": "#fe1111""}, "geometry": { "type": "Point", "coordinates": [ -8.460058, 30.084589 ] } }
+,
+{ "type": "Feature", "properties": { "title": "Camp El Barco Sidi ifni", "description": "I like it", "image": "http://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/NYC_Montage_2011.jpg/275px-NYC_Montage_2011.jpg", "url": "http://en.wikipedia.org/wiki/New_York_City", "marker-size": "medium", "marker-symbol": "bus", "marker-color": "#fet" }, "geometry": { "type": "Point", "coordinates": [ -10.174778, 29.383353 ] } }
+
+]
+}
